@@ -1,0 +1,24 @@
+/* styles.css */
+
+
+
+/* Navigation Bar */
+.Navbar {
+  padding: 10px;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.NavLink {
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  color: teal;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
