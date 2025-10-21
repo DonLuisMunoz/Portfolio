@@ -1,0 +1,9 @@
+# netlify.toml
+[build]
+publish = "frontend
+
+# SPA routing (only if client-side routes)
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
