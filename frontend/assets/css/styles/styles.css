@@ -2,23 +2,73 @@
 
 
 
-/* Navigation Bar */
-.Navbar {
+
+/* Body */
+body {
+  background-color: light-dark(#ffff, #3333);
+  color: light-dark(#3333, #ffff)
+}
+
+
+/* main image */
+#MainImage {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: auto;
+
+  border: thin;
+  border-radius: 100px; 
+
+  padding: 50px;
+}
+
+
+/* Hero */
+.hero {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
   padding: 10px;
-  border-radius: 30px;
-  padding: 0;
-  margin: 0;
+  /* text attribute */
+  color: rgb(6, 69, 6);
+  font-weight: 500;
+  text-justify: auto;
+  list-style-position: inside;
 }
 
-.NavLink {
-  font-weight: 900;
-  margin-right: 10px;
+.main-contact-form {
+  /* display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto; */
+
 }
 
-.no-bullets {
-  list-style-type: none;
-  color: teal;
+#form-row {
   display: flex;
-  justify-content: center;
-  gap: 1em;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  gap: 10px;
+  padding: 20px;
+
+  text-align: center;
+}
+
+#text-and-submit {
+  display: flex;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  gap: 10px;
+  padding: 20px;
+
+  text-align: center;
 }

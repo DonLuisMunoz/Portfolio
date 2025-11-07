@@ -9,18 +9,38 @@
   </head>
 
   <body>
-    <img src="Luis.jpeg">
-    <h1>Hi, my name is Luis</h1>
-    <h2>Some fun facts about me</h2>
+    <div class="landing-page"><
+      <img src="assets/images/Luis.jpeg" id="MainImage" />
+    </div>
 
-    <ul>
-      <li>I'm 37 years old</li>
-      <li>I live in Florida</li>
-      <li>my favorite meal is Moro de Habichuela, con Pollo Guisado</li>
-    </ul>
+    <div class="hero">
+      <h1>Hi, my name is Luis</h1>
+      <h2>Some fun facts about me</h2>
 
-    <p>Please connect with ne on <a href="www.linkedin.com/in/luisalfredomunoz" target="_blank">Linkedin here.</a></p>
-    <input type="email" placeholder="Enter Email">
-    <button>Join newsletter</button>
+      <ul>
+        <li>I'm 37 years old</li>
+        <li>I live in Florida</li>
+        <li>my favorite meal is Moro de Habichuela, con Pollo Guisado</li>
+      </ul>
+      <p>Please connect with me on <a href="https://www.linkedin.com/in/luisalfredomunoz" target="_blank">Linkedin here</a> or reach out directly below.</p>
+    </div>
+    
+    <form class="main-contact-form" method="post">
+      <div>
+        <div id="form-row">
+          <label for="name"></label>
+          <input id="name" type="text" placeholder="Enter Fullname">
+
+          <label for="main-contact-form-email"></label>
+          <input id="main-contact-form-email" type="email" placeholder="Enter Email">
+        </div>
+
+        <div id="text-and-submit">
+          <textarea id="message" name="user-message" row="4" cols="30"></textarea>
+          <input type"submit" value="Send a message">
+        </div>
+      </div>
+    </form>
+
   </body>
 </html>
